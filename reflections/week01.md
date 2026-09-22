@@ -33,3 +33,12 @@ During the 2018 Australian Grand Prix, Mercedes lost the lead after a software b
 This demonstrates the complexity of software engineering. F1 teams rely on software to process changing race conditions and make precise calculations, so a small error in one tool can affect important real-world decisions.
 
 Source: https://www.motorsport.com/f1/news/mercedes-reveals-melbourne-bug-hamilton-1019964/1398843/
+
+## Is There Still a Software Crisis?
+# NATO Software Engineering Conferences
+One additional fact I found is that the 1968 NATO Software Engineering Conference was organised by the NATO Science Committee and brought together software experts from several countries to discuss the growing problems involved in developing software. The conference was responding to difficulties such as software projects becoming increasingly complex, expensive and difficult to manage.
+
+Source: NATO Software Engineering Conference report
+
+# Does the Software Crisis Still Exist?
+In my view, a version of the 1960s “software crisis” still exists today, although software development has improved significantly. Problems with reliability, complexity and managing requirements have not disappeared. The 2018 Australian Grand Prix is a good example. Mercedes used a software tool to calculate the time gap between Lewis Hamilton and Sebastian Vettel during the Virtual Safety Car period. A bug caused the tool to produce the wrong calculation, leading Mercedes to believe Hamilton would remain ahead after Vettel’s pit stop. Vettel eventually took the lead and won the race. This shows that even modern software can produce incorrect results that have real-world consequences. Therefore, I think the software crisis has changed rather than disappeared.
