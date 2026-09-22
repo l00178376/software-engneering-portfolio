@@ -1,7 +1,8 @@
 Software Engineering module 
 it will contain lab work over the weeks
 
-1.1 ## Week 01 reflection 
+1.1 
+## Week 01 reflection 
 To me, software is more than just coding. It is a collection of instructions, data, and interfaces that work together to solve a problem or provide a useful service. I use software every day, from messaging apps and web browsers to banking and university systems. When software works well, I often barely notice it. For example, Google Maps usually gives me clear directions and updates quickly when conditions change, which makes it feel reliable and straightforward.
 
 Engineering involves thinking about requirements, reliability, security, maintainability, testing, and how software will behave as more people use it. it involves using appropriate theories and and methods to solve a problem. Good engineering means considering not only whether something works today, but also whether it can continue working and be changed safely in the future.
@@ -24,3 +25,11 @@ Software Success: Google Maps has consistently helped me navigate unfamiliar pla
 
 2.2 view:
 I think the lack of proper specification at the beginning caused the most damage. The developers started work without written requirements or input from warehouse staff, so they made assumptions about how the system should work. This led to problems with the warehouse workflow and made later changes harder. Although testing was also a major failure, better specification could have prevented many of the problems before they reached the final system.
+
+## Researching a Software Failure
+# Software Failure Case Study: 2018 Australian Grand Prix
+During the 2018 Australian Grand Prix, Mercedes lost the lead after a software bug affected its race calculations. Mercedes investigated the incident and found that an offline tool used to calculate the time difference between cars during safety-car periods had a bug. The tool produced the wrong number, which made the team believe Lewis Hamilton would have enough of a gap to remain ahead of Sebastian Vettel after Vettel's pit stop. Vettel was therefore able to take the lead and win the race. Mercedes later confirmed that the problem was with this calculation tool rather than its main race-strategy software.
+
+This demonstrates the complexity of software engineering. F1 teams rely on software to process changing race conditions and make precise calculations, so a small error in one tool can affect important real-world decisions.
+
+Source: https://www.motorsport.com/f1/news/mercedes-reveals-melbourne-bug-hamilton-1019964/1398843/
