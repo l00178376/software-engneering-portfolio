@@ -1,5 +1,4 @@
 ## Task 1 – Waterfall Change Impact
-# 1
 The new multi-restaurant ordering feature was requested in Month 4, after the requirements and design had already been signed off. Because the project follows a waterfall process, the change causes re-work in several completed or planned stages.
 Overall, the change creates re-work because it arrives after requirements and design have already been completed and signed off. This is a key disadvantage of making significant changes late in a waterfall project
 
@@ -38,7 +37,6 @@ Why: The extra design, development and testing require additional work and may r
 
 The Month 6 deadline may therefore be at risk, although it does not automatically have to be delayed.
 
-# 2
 ## Task 1 – Impact of the Change Using 2-Week Increments
 If the same team worked in 2-week increments, the impact of the new feature would generally be easier to manage because the project is designed to accommodate changing requirements.
 
