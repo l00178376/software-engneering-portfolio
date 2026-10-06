@@ -39,7 +39,7 @@ Why: The extra design, development and testing require additional work and may r
 The Month 6 deadline may therefore be at risk, although it does not automatically have to be delayed.
 
 # 2
-# Task 1 – Impact of the Change Using 2-Week Increments
+## Task 1 – Impact of the Change Using 2-Week Increments
 If the same team worked in 2-week increments, the impact of the new feature would generally be easier to manage because the project is designed to accommodate changing requirements.
 
 Step 1 – Request the Change
@@ -87,6 +87,7 @@ However, the impact can often be managed by reprioritising other work rather tha
 | Resources | May require additional developers/testers. | Resources can be adjusted between increments if needed. |
 | Budget | Greater risk of extra cost due to rework and resources. | Usually easier to manage, but a large change can still increase costs. |
 | Approvals | More formal – affected requirements and design may need sign-off again. | Less formal – mainly requires prioritisation and client/product owner approval. |
+
 
 ## Task 2 – QuickBuild Solutions: Process Weaknesses
 | Weakness | Explanation | Heavyweight vs Lightweight Framing |
