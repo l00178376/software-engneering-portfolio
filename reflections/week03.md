@@ -1,5 +1,5 @@
-# Task 1 – Waterfall Change Impact
-## 1
+## Task 1 – Waterfall Change Impact
+# 1
 The new multi-restaurant ordering feature was requested in Month 4, after the requirements and design had already been signed off. Because the project follows a waterfall process, the change causes re-work in several completed or planned stages.
 Overall, the change creates re-work because it arrives after requirements and design have already been completed and signed off. This is a key disadvantage of making significant changes late in a waterfall project
 
@@ -38,7 +38,7 @@ Why: The extra design, development and testing require additional work and may r
 
 The Month 6 deadline may therefore be at risk, although it does not automatically have to be delayed.
 
-## 2
+# 2
 # Task 1 – Impact of the Change Using 2-Week Increments
 If the same team worked in 2-week increments, the impact of the new feature would generally be easier to manage because the project is designed to accommodate changing requirements.
 
@@ -87,4 +87,27 @@ However, the impact can often be managed by reprioritising other work rather tha
 | Resources | May require additional developers/testers. | Resources can be adjusted between increments if needed. |
 | Budget | Greater risk of extra cost due to rework and resources. | Usually easier to manage, but a large change can still increase costs. |
 | Approvals | More formal – affected requirements and design may need sign-off again. | Less formal – mainly requires prioritisation and client/product owner approval. |
-| Overall Effort | **Higher** – completed work must be revisited. |
+
+## Task 2 – QuickBuild Solutions: Process Weaknesses
+| Weakness | Explanation | Heavyweight vs Lightweight Framing |
+|---|---|---|
+| **1. No backlog or shared written requirements** | Requirements are communicated verbally and from memory, which causes misunderstandings. A lightweight process would not need a large specification, but it should still use a simple backlog, user stories or acceptance criteria. | **Lightweight:** People-oriented and collaborative, but still needs enough shared information to keep everyone aligned. |
+| **2. No regular client/user feedback** | The client sometimes only discovers problems after release. Regular reviews or demonstrations would allow the client to give feedback and identify misunderstandings earlier. | **Lightweight:** Iterative, incremental and based on frequent delivery and feedback. |
+| **3. No peer review or proper testing** | Developers push directly to main and test their own work once. Peer review and basic testing would catch problems before release. | **Lightweight:** Although lightweight processes use less documentation and formal process, they still require disciplined development practices. |
+
+### Justification Using the Heavyweight vs Lightweight Framework
+QuickBuild does not need to introduce a heavy, documentation-focused process. The problems can be addressed using **lightweight practices**.
+A heavyweight process would focus on **elaborate planning, detailed documentation and a disciplined formal process**. In contrast, a lightweight/agile process is **iterative, incremental, people-oriented and embraces change**.
+Therefore, the solution is not to create large amounts of paperwork. Instead, QuickBuild needs a **small backlog, regular client feedback, peer review and basic testing**. These practices provide enough structure to prevent misunderstandings while keeping the process flexible and lightweight.
+
+## Task 2 – Low-Cost Improvements and MoSCoW Priorities
+| Weakness | Low-Cost Improvement | MoSCoW Priority | Reason |
+|---|---|---|---|
+| **No backlog or shared written requirements** | Create a shared backlog using short user stories and simple acceptance criteria. | **MUST** | This creates a shared understanding of what needs to be built and prevents requirement misunderstandings. |
+| **No regular client/user feedback** | Hold a short client demo/review at the end of each 2-week increment. | **SHOULD** | Regular feedback helps identify misunderstandings early, especially before features are released to the client. |
+| **No peer review or proper testing** | Require one developer to review the code and complete a basic test checklist before merging to the main branch. | **MUST** | This is a low-cost way to catch defects before they reach the client and improves software quality. |
+
+### MoSCoW Prioritisation
+- **MUST:** Shared backlog/written requirements
+- **MUST:** Peer review and basic testing
+- **SHOULD:** Regular client/user feedback
