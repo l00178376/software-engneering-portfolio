@@ -38,21 +38,6 @@ Why: The extra design, development and testing require additional work and may r
 
 The Month 6 deadline may therefore be at risk, although it does not automatically have to be delayed.
 
-Summary
-New Change
-    ↓
-Requirements updated + sign-off
-    ↓
-Design updated + sign-off
-    ↓
-Existing components reworked
-    ↓
-New + regression testing
-    ↓
-Timeline / resources / budget reviewed
-    ↓
-Final acceptance
-
 ## 2
 # Task 1 – Impact of the Change Using 2-Week Increments
 If the same team worked in 2-week increments, the impact of the new feature would generally be easier to manage because the project is designed to accommodate changing requirements.
@@ -91,23 +76,7 @@ Step 7 – Review Project Impact
 The team may need to review time, resources and budget if the feature is large.
 However, the impact can often be managed by reprioritising other work rather than changing the entire project plan.
 
-Summary
-New Change
-    ↓
-Assess + Prioritise
-    ↓
-Add to Backlog
-    ↓
-Update Requirements / Design
-    ↓
-Develop in 2-Week Increment
-    ↓
-Test + Regression Testing
-    ↓
-Client Review
-    ↓
-Adjust / Continue in Next Increment
-
+# comparison 
 | Area | Waterfall | 2-Week Increments |
 |---|---|---|
 | Requirements | High effort – signed-off requirements need updating and approval. | Lower effort – change can be added to the backlog and prioritised. |
