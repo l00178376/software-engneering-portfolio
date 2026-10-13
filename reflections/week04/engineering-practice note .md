@@ -1,4 +1,4 @@
-Extreme Programming (XP) Practice
+## Extreme Programming (XP) Practice
 Selected Practice: Continuous Integration (CI)
 
 Continuous Integration is an XP practice where developers frequently merge their code into a shared codebase and automatically run builds and tests to identify problems early. A real-world example is GitHub, which uses GitHub Actions to build and test GitHub.com; its engineering team reported scaling its CI system to run around 15,000 jobs within an hour. Source: GitHub Engineering Blog.
