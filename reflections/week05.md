@@ -28,12 +28,10 @@ This would reduce the risk of documents being accessed by unintended people, imp
 The trade-off is worth making. Security is one of the weakest characteristics, and accidental over-sharing can expose sensitive personal, academic, or business information. Although stricter sharing controls add friction, Google Docs could reduce this by offering clear default options, simple permission summaries, and an easy way to undo changes. Protecting user data should take priority over a small reduction in convenience.
 
 
-Task 3 — QA or QC?
-QA or QC Activity Card Sort
+# Task 3 — QA or QC?
+## QA or QC Activity Card Sort
 
-Quality Assurance (QA) is process-oriented and preventive: it defines standards, procedures, and methods that build quality into a product. Quality Control (QC) is product-oriented and detective: it checks deliverables against standards and requirements to identify defects.
-
-#	Activity	QA or QC?	Evidence / Reason
+## Activity	QA or QC?	Evidence / Reason
 1	Writing a coding standard for the team	QA	Establishes consistent coding rules to prevent defects.
 2	Running the unit test suite before a change is merged	QC	Tests the code to detect defects before merging.
 3	Auditing whether teams actually follow the review procedure	QA	Checks that the established quality process is followed.
@@ -49,17 +47,24 @@ Quality Assurance (QA) is process-oriented and preventive: it defines standards,
 Borderline Activities
 
 The hardest activities to classify were cards 3, 6, and 11.
-
 Card 3 — Auditing the review procedure: QA because it checks whether the team follows the established process.
 Card 6 — Static analysis: QC because it examines existing code to detect potential defects, although it can also support prevention.
 Card 11 — Reviewing defect counts: QA because the results are used to improve working practices and prevent similar defects in the future.
 
-The definitions used were that QA focuses on preventing defects by improving processes, while QC focuses on detecting defects by checking products and deliverables.
-
 QA/QC Pair for the Weakest Characteristic
 Chosen characteristic: Security
-
 Security received a score of 3/5 in Task 1. Google Docs provides access controls and sharing permissions, but users must check link-sharing settings to avoid granting unintended access.
 
 Type	Activity	Evidence / Reason
 QA — Prevention	Establish a secure document-sharing procedure that defaults to named users and requires permission checks before sharing.	Helps prevent accidental exposure of sensitive information through secure
+
+
+# Task 4 — Standards for a Small Team
+## Product and Process Standards
+
+| Type | Standard | ISO/IEC 25010 Characteristic | QA Activity | QC Activity |
+|---|---|---|---|---|
+| Product | Document-sharing features must ensure that only authorised users can access restricted documents. | Security | Review security requirements to ensure access-control rules are defined and followed. | Test sharing permissions to verify that unauthorised users cannot access restricted documents. |
+| Product | Document-editing features must save changes correctly and preserve content when documents are reopened. | Reliability | Review development procedures to ensure saving and recovery requirements are included. | Test saving and reopening documents to check that changes are preserved without data loss. |
+| Process | Every code change must be reviewed by at least one team member other than its author before merging. | Maintainability | Audit pull requests and review records to check that the peer-review procedure is followed. | Inspect code changes to identify defects and violations of coding standards. |
+| Process | Automated tests must pass before any code change is merged into the main branch. | Functional suitability, Reliability | Check the development procedure and CI settings to ensure tests are required before merging. | Run automated tests to verify functionality and detect regressions. |
